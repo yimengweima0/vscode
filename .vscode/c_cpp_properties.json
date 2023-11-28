@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "/usr/include/**",
+                "/usr/local/include/opencv4",
+                "/usr/lib/**",
+                "/usr/local/include/**",
+                "/usr/local/cuda/include/",
+                "${workspaceFolder}/**",
+                "/home/lwh/G314/g314_track/**",
+                "${workspaceFolder}/src/pixel_cloud_fusion/include/**",
+                 "${workspaceFolder}/src/pedestrian_distance/include/**",
+                 "/home/lwh/G314/track/src/cv_bridge4/include/**",
+                 "/home/lwh/software/TensorRT-8.4.1.5/include/"
+            ],
+            "name": "ROS",
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
